@@ -1,0 +1,27 @@
+{
+  "name": "ci-cd-pipelines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+   "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vrushabhxpawar/CI-CD-Pipelines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vrushabhxpawar/CI-CD-Pipelines/issues"
+  },
+  "homepage": "https://github.com/vrushabhxpawar/CI-CD-Pipelines#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
